@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :image_comments
   resources :images
   resources :images
   root 'static_pages#home'
